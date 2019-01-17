@@ -105,7 +105,7 @@ new EmberApp(defaults, {
  ```javascript
 
 
-  // we need to prevent full app refresh if we can hande changed file.
+  // we need to prevent full app refresh if we can handle changed file.
  function onLiveReload(event) {
     if (event.modulePath.includes('redusers')) {
       event.cancel = true;
